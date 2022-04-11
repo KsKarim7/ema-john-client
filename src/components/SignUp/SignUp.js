@@ -35,7 +35,7 @@ const SignUp = () => {
         if (password.length < 6) {
             setError('Password must be consist at least of 6 character')
         }
-        createUserWithEmailAndPassword(email, password)
+        createUserWithEmailAndPassword(email, password);
     }
 
     return (
